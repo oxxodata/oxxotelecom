@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Navbar() {
     return (
-        <nav classNameName="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
+        <nav className="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
             <div className="container" style={{ display: 'flex' }}>
                 <div className="navbar-brand">
                     <Link href="/">

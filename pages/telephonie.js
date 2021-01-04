@@ -1,11 +1,11 @@
-import Navbar from "../components/Navbar";
+import Navbar from "../components/Navbar"
 
 export default function telephonie() {
     return (
         <div>
             <section className="hero is-fullheight is-default is-bold">
                 <Navbar />
-                <div className="hero-body">
+                <div className="hero-body delay-1 animated fadeInLeft" data-animation="fadeInLeft">
                     <div className="container">
                         <div className="columns is-vcentered">
                             <div className="column is-5 is-offset-1 landing-caption">
@@ -51,9 +51,8 @@ export default function telephonie() {
                     </div>
                 </div>
             </section>
-
             <section className="section is-medium hero is-fullheight">
-                <div className="snip1214" style={{margin: '0 auto', marginLeft: '18%'}}>
+                <div className="snip1214" style={{ margin: 'auto' }}>
                     <div className="plan">
                         <h3 className="plan-title">
                             Pack Free

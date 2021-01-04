@@ -6,7 +6,7 @@ export default function Home() {
       <section className="hero is-fullheight is-default is-bold">
         <Navbar />
 
-        <div className="hero-body">
+        <div className="hero-body delay-1 animated fadeInLeft" data-animation="fadeInLeft">
             <div className="container">
                 <div className="columns is-vcentered">
                     <div className="column is-5 is-offset-1 landing-caption">
