@@ -95,6 +95,48 @@ export default function telephonie() {
                         <div className="plan-select"><a href="">Commander</a></div>
                     </div>
                 </div>
+                <div class="columns is-mobile is-centered" style={{marginTop: '20px'}}>
+                    <div class="column is-one-quarter">
+                        <ul>
+                            <li><i style={{marginLeft: '20px'}} className="fa fa-exchange" aria-hidden="true" style={{marginRight: '5px'}} /> Transfert</li>
+                            <li><i style={{marginLeft: '20px'}} className="fa fa-share" aria-hidden="true" style={{marginRight: '5px'}} /> Renvoi d’appel</li>
+                            <li><i style={{marginLeft: '20px'}} className="fa fa-music" aria-hidden="true" style={{marginRight: '5px'}} /> Sonneries personnalisables</li>
+                            <li><i style={{marginLeft: '20px'}} className="fa fa-music" aria-hidden="true" style={{marginRight: '5px'}} /> Musique d’attente</li>
+                            <li><i style={{marginLeft: '20px'}} className="fa fa-phone" aria-hidden="true" style={{marginRight: '5px'}} /> Double appel</li>
+                            <li><i style={{marginLeft: '20px'}} className="fa fa-phone" aria-hidden="true" style={{marginRight: '5px'}} /> Parking</li>
+                            <li><i style={{marginLeft: '20px'}} className="fa fa-phone" aria-hidden="true" style={{marginRight: '5px'}} /> Pickup</li>
+                            <li><i style={{marginLeft: '20px'}} className="fa fa-microphone" aria-hidden="true" style={{marginRight: '5px'}} /> Enregistrement d’appel</li>
+                            <li><i style={{marginLeft: '20px'}} className="fa fa-microphone" aria-hidden="true" style={{marginRight: '5px'}} /> Messagerie vocale</li>
+                            <li><i style={{marginLeft: '20px'}} className="fa fa-fax" aria-hidden="true" style={{marginRight: '5px'}} /> Fax out</li>
+                            <li><i style={{marginLeft: '20px'}} className="fa fa-fax" aria-hidden="true" style={{marginRight: '5px'}} /> Fax in</li>
+                            <li><i style={{marginLeft: '20px'}} className="fa fa-book" aria-hidden="true" style={{marginRight: '5px'}} /> Annuaires</li>
+                            <li><i style={{marginLeft: '20px'}} className="fa fa-book" aria-hidden="true" style={{marginRight: '5px'}} /> Contact Sync</li>
+                            <li><i style={{marginLeft: '20px'}} className="fa fa-history" aria-hidden="true" style={{marginRight: '5px'}} /> Historique d’appels</li>
+                            <li><i style={{marginLeft: '20px'}} className="fa fa-columns" aria-hidden="true" style={{marginRight: '5px'}} /> Portail utilisateur</li>
+                            <li><i style={{marginLeft: '20px'}} className="fa fa-phone" aria-hidden="true" style={{marginRight: '5px'}} /> Click to Call</li>
+                        </ul>
+                    </div>
+                    <div class="column is-one-quarter">
+                        <ul>
+                            <li><i style={{marginLeft: '20px'}} className="fa fa-phone" aria-hidden="true" style={{marginRight: '5px'}} /> Notification d’appel</li>
+                            <li><i style={{marginLeft: '20px'}} className="fa fa-phone" aria-hidden="true" style={{marginRight: '5px'}} /> Groupe</li>
+                            <li><i style={{marginLeft: '20px'}} className="fa fa-phone" aria-hidden="true" style={{marginRight: '5px'}} /> Menu - Serveur Vocal Interactif</li>
+                            <li><i style={{marginLeft: '20px'}} className="fa fa-phone" aria-hidden="true" style={{marginRight: '5px'}} /> Nom de ligne entrante</li>
+                            <li><i style={{marginLeft: '20px'}} className="fa fa-phone" aria-hidden="true" style={{marginRight: '5px'}} /> Calendrier</li>
+                            <li><i style={{marginLeft: '20px'}} className="fa fa-phone" aria-hidden="true" style={{marginRight: '5px'}} /> Appels Vidéo</li>
+                            <li><i style={{marginLeft: '20px'}} className="fa fa-phone" aria-hidden="true" style={{marginRight: '5px'}} /> Numéros internationaux</li>
+                            <li><i style={{marginLeft: '20px'}} className="fa fa-phone" aria-hidden="true" style={{marginRight: '5px'}} /> Opérateur international</li>
+                            <li><i style={{marginLeft: '20px'}} className="fa fa-phone" aria-hidden="true" style={{marginRight: '5px'}} /> Softphone</li>
+                            <li><i style={{marginLeft: '20px'}} className="fa fa-phone" aria-hidden="true" style={{marginRight: '5px'}} /> Webphone</li>
+                            <li><i style={{marginLeft: '20px'}} className="fa fa-phone" aria-hidden="true" style={{marginRight: '5px'}} /> Numéro unique</li>
+                            <li><i style={{marginLeft: '20px'}} className="fa fa-phone" aria-hidden="true" style={{marginRight: '5px'}} /> Flex desking</li>
+                            <li><i style={{marginLeft: '20px'}} className="fa fa-phone" aria-hidden="true" style={{marginRight: '5px'}} /> Salons de conférence</li>
+                            <li><i style={{marginLeft: '20px'}} className="fa fa-phone" aria-hidden="true" style={{marginRight: '5px'}} /> Web Meeting Lite</li>
+                            <li><i style={{marginLeft: '20px'}} className="fa fa-phone" aria-hidden="true" style={{marginRight: '5px'}} /> Privacy</li>
+                        </ul>
+                    </div>
+                </div>
+
             </section>
 
             <section className="section section-feature-grey is-medium" style={{ padding: '1.5rem 1.5rem' }}>

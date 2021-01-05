@@ -55,7 +55,7 @@ export default function Navbar() {
                                 </Link>
                                 <Link href="/vpn">
                                     <a className="navbar-item ">
-                                        VPN
+                                        VPN & MPLS
                                     </a>
                                 </Link>
                             </div>
