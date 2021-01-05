@@ -49,32 +49,96 @@ export default function telephonie() {
 
             <section className="section section-feature-grey is-medium">
                 <div className="container">
-                    <div className="title-wrapper has-text-centered" style={{maxWidth: '1000px'}}>
-                        <h3 className="title is-3">Trunk SIP, qu’est-ce que c’est ?</h3>
-                        <h5 className="subtitle is-5 is-muted" style={{marginTop: '10px'}}>Pour raccorder un IPBX (central téléphonique sur IP), il est généralement plus économique d’utiliser un lien de connexion dénommé « trunk SIP ». Le Trunk SIP est donc un composant des technologies IPBX ou Centrex qui permet de bénéficier
-                        de forfaits VoIP à la minute avec de tarifs plus attractifs grâce aux accords avec certains opérateurs téléphoniques.
-                    <br /> Le lien SIP Trunk permet de véhiculer les appels émis et reçus entre le réseau IPBX et le réseau téléphonique public (RTC-RNIS). Bien que la majorité des opérateurs téléphoniques (TELCO) fournissent la possibilité de s’interconnecter
-                            au Trunk SIP, tous ne proposent pas encore cette fonctionnalité VoIP. Il peut donc être nécessaire d’effectuer la portabilité des numéros de votre opérateur actuel vers un nouvel opérateur compatible pour interconnecter votre IPBX
-                            au réseau téléphonique.
-                </h5>
+                    <div className="title-wrapper has-text-centered">
+                        <h2 className="title is-2">Nos Qualités</h2>
+                        <h3 className="subtitle is-5 is-muted">L'installation et la géstion du service est totalement prise en charge.
+                </h3>
                         <div className="divider is-centered"></div>
                     </div>
 
-                    <div className="title-wrapper has-text-centered" style={{maxWidth: '1000px', marginTop: '50px'}}>
-                        <h3 className="title is-3">Définition du Trunk SIP</h3>
-                        <h5 className="subtitle is-5 is-muted" style={{marginTop: '10px'}}>SIP Session Initiation Protocol est le protocole de communication utilisé par les équipements de type « IPBX » pour dialoguer entre eux et pour dialoguer avec les opérateurs qui routent les appels aux quatre coins du globe.
-                    <br /> Trunk désigne un ensemble de liens/canaux/faisceaux car il permet d’acheminer plusieurs communications simultanées.
-                </h5>
-                        <div className="divider is-centered"></div>
-                    </div>
-
-                    <div className="title-wrapper has-text-centered" style={{maxWidth: '1000px', marginTop: '50px'}}>
-                        <h3 className="title is-3">Téléphonie VoIP avec le Trunk SIP</h3>
-                        <h5 className="subtitle is-5 is-muted" style={{marginTop: '10px'}}>La téléphonie IP avec trunk SIP vous permet de bénéficier d’un abonnement téléphonique plus avantageux et d’interconnecter tout votre réseau interne plus simplement. Pour bien démarrer votre installation Trunk SIP, il est essentiel de
-                        comprendre les grandes notions autour de la technologie SIP.
-                    <br /> Lors de la commande de votre abonnement téléphonique pour une liaison trunk SIP, il vous faudra définir le nombre de canaux de communications simultanés nécessaires pour votre entreprise. Pour déterminer ce nombre de canaux Trunk,
-                                    il vous faut choisir le moment le plus chargé de la journée et relever le nombre d’appels reçus et émis en même temps.
-                </h5>
+                    <div className="content-wrapper">
+                        <div className="columns">
+                            <div className="column is-one-third">
+                                <div className="feature-card is-bordered has-text-centered revealOnScroll delay-1 animated fadeInLeft" data-animation="fadeInLeft">
+                                    <div className="card-title">
+                                        <h4>Rapide</h4>
+                                    </div>
+                                    <div className="card-icon">
+                                        <img src="/mouse-globe.svg" />
+                                    </div>
+                                    <div className="card-text">
+                                        <p>Jusqu’à 10 Gbit/s montants et descendants</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="column is-one-third">
+                                <div className="feature-card is-bordered has-text-centered revealOnScroll delay-1 animated fadeInLeft" data-animation="fadeInLeft">
+                                    <div className="card-title">
+                                        <h4>Solution clé en main</h4>
+                                    </div>
+                                    <div className="card-icon">
+                                        <img src="/plug-cloud-.svg" />
+                                    </div>
+                                    <div className="card-text">
+                                        <p>VPN Nomade, Firewall et optimisation de la Bande passante</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="column is-one-third">
+                                <div className="feature-card is-bordered has-text-centered revealOnScroll delay-1 animated fadeInLeft" data-animation="fadeInLeft">
+                                    <div className="card-title">
+                                        <h4>Qualité de Service</h4>
+                                    </div>
+                                    <div className="card-icon">
+                                        <img src="/mouse-globe.svg" />
+                                    </div>
+                                    <div className="card-text">
+                                        <p>Une qualité de service exceptionnelle alliée à un support professionnel</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="columns">
+                            <div className="column is-one-third">
+                                <div className="feature-card is-bordered has-text-centered revealOnScroll delay-1 animated fadeInLeft" data-animation="fadeInLeft">
+                                    <div className="card-title">
+                                        <h4>Débit symétrique</h4>
+                                    </div>
+                                    <div className="card-icon">
+                                        <img src="/mouse-globe.svg" />
+                                    </div>
+                                    <div className="card-text">
+                                        <p>Débit descendant (download) équivalent au débit ascendant (upload)</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="column is-one-third">
+                                <div className="feature-card is-bordered has-text-centered revealOnScroll delay-1 animated fadeInLeft" data-animation="fadeInLeft">
+                                    <div className="card-title">
+                                        <h4>Accés privé</h4>
+                                    </div>
+                                    <div className="card-icon">
+                                        <img src="/mouse-globe.svg" />
+                                    </div>
+                                    <div className="card-text">
+                                        <p>Accéder à Internet ou échanger des données (interconnexion de sites) de manière totalement sécruisé</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="column is-one-third">
+                                <div className="feature-card is-bordered has-text-centered revealOnScroll delay-1 animated fadeInLeft" data-animation="fadeInLeft">
+                                    <div className="card-title">
+                                        <h4>Garantie de disponibilité</h4>
+                                    </div>
+                                    <div className="card-icon">
+                                        <img src="/mouse-globe.svg" />
+                                    </div>
+                                    <div className="card-text">
+                                        <p>Une garantie de disponibilité annuelle de 99,91% soit moins de 9 heures de coupure par an</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -86,29 +150,24 @@ export default function telephonie() {
                 <div className="container">
                     <div className="columns">
                         <div className="column is-centered-tablet-portrait">
-                            <h1 className="title section-title">Les avantages du SIP Trunk</h1>
+                            <h1 className="title section-title">OXXO Télécom s'occupe de tout!</h1>
+                            <h3 className="subtitle is-5 is-muted">Démarquez-vous de vos concurrents.</h3>
                             <div className="divider"></div>
                         </div>
                         <div className="column is-7 mt-60">
                             <article className="media icon-box">
                                 <figure className="media-left">
                                     <p className="image">
-                                        <img src="/laptop-globe.svg" />
+                                        <img src="/laptop-globe.png" />
                                     </p>
                                 </figure>
                                 <div className="media-content mt-50">
                                     <div className="content">
                                         <p>
-                                            <span className="icon-box-title">Moins chére</span>
+                                            <span className="icon-box-title">Installation</span>
 
-                                            <span className="icon-box-text">Réduction des coûts de téléphonie et maintenance : Avec
-                                            une infrastructure ToIP ou VoIP, les anciennes cartes T0 et T2 des systèmes
-                                            téléphoniques peuvent être supprimées. Tout comme les raccordements TDM pour
-                                            chaque site, permettant ainsi de dégager une grande économie sur les
-                                            infrastructures et leur maintenance. Concernant les coûts des appels
-                                            téléphoniques, les communications voix sont centralisés ce qui permet de générer
-                                            de grandes économies en fonction de la taille de votre entreprise. De plus tous
-                                        les appels inter-sites ne génèrent aucuns coûts.</span>
+                                            <span className="icon-box-text">Modem (EAS) installé sur site et Routeur R7
+                                        fourni.</span>
                                         </p>
                                     </div>
                                 </div>
@@ -116,19 +175,16 @@ export default function telephonie() {
                             <article className="media icon-box">
                                 <figure className="media-left">
                                     <p className="image">
-                                        <img src="/doc-sync.svg" />
+                                        <img src="/doc-sync.png" />
                                     </p>
                                 </figure>
                                 <div className="media-content mt-50">
                                     <div className="content">
                                         <p>
-                                            <span className="icon-box-title">Fléxibilité</span>
+                                            <span className="icon-box-title">Service aprés vente</span>
 
-                                            <span className="icon-box-text">Une solution VoIP plus flexible : chaque modification de
-                                            votre infrastructure se fait très simplement et requiert donc des coûts
-                                            d’intervention largement moindre voir gratuites selon les opérations. Gérer les
-                                            pics de trafic sur certains sites devient aussi très simple puisque le système
-                                        VoIP est raccordé de manière centrale à votre opérateur.</span>
+                                            <span className="icon-box-text">Gestion, supervision et maintenance de service de
+                                        maniére continue.</span>
                                         </p>
                                     </div>
                                 </div>
@@ -136,20 +192,16 @@ export default function telephonie() {
                             <article className="media icon-box">
                                 <figure className="media-left">
                                     <p className="image">
-                                        <img src="/mobile-feed.svg" />
+                                        <img src="/mobile-feed.png" />
                                     </p>
                                 </figure>
                                 <div className="media-content mt-50">
                                     <div className="content">
                                         <p>
-                                            <span className="icon-box-title">Compatibilité</span>
+                                            <span className="icon-box-title">Support client</span>
 
-                                            <span className="icon-box-text">Les solutions tierces sont nativement compatibles avec
-                                            la solution SIP Trunk. Vous pouvez ainsi intégrer tous les usages collaboratifs
-                                            et faciliter les interactions (visioconférence, intégration messagerie mail,
-                                            fédération, messagerie instantanée…). Skype for Business est une solution de
-                                            téléphonie VoIP qui intègre de multiples fonctionnalités de collaboration et des
-                                        liaisons avec des outils tierces telles que la messagerie Exchange..</span>
+                                            <span className="icon-box-text">Un support client de haut niveau disponible à n'importe
+                                        quel moment pour vous aider.</span>
                                         </p>
                                     </div>
                                 </div>
@@ -167,7 +219,7 @@ export default function telephonie() {
                     <div className="columns">
                         <div className="column is-10 is-offset-1">
                             <div className="has-text-centered">
-                                <img className="pushed-image" src="/3cx.png" />
+                                <img style={{height: '300px', width: 'auto'}} className="pushed-image" src="/oxxo_modem.png" />
                             </div>
                         </div>
                     </div>

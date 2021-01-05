@@ -251,7 +251,7 @@ export default function telephonie() {
                             <article className="media icon-box">
                                 <figure className="media-left">
                                     <p className="image">
-                                        <img src="/laptop-globe.svg" />
+                                        <img src="/laptop-globe.png" />
                                     </p>
                                 </figure>
                                 <div className="media-content mt-50">
@@ -269,7 +269,7 @@ export default function telephonie() {
                             <article className="media icon-box">
                                 <figure className="media-left">
                                     <p className="image">
-                                        <img src="/doc-sync.svg" />
+                                        <img src="/doc-sync.png" />
                                     </p>
                                 </figure>
                                 <div className="media-content mt-50">
@@ -286,7 +286,7 @@ export default function telephonie() {
                             <article className="media icon-box">
                                 <figure className="media-left">
                                     <p className="image">
-                                        <img src="/mobile-feed.svg" />
+                                        <img src="/mobile-feed.png" />
                                     </p>
                                 </figure>
                                 <div className="media-content mt-50">

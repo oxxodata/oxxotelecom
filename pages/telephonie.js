@@ -14,7 +14,7 @@ export default function telephonie() {
                         </h1>
 
                                 <h2 className="subtitle is-5 is-muted">
-                                    Pour assurer la continuité de votre activité, facile à installer. Simple à utiliser. Et Intégrée à vos outils.<b style={{ color: '#f37f3c' }}> À partir de 11.99€ par mois!</b>
+                                    Pour assurer la continuité de votre activité, facile à installer. Simple à utiliser. Et Intégrée à vos outils.<b style={{ color: '#f37f3c' }}> À partir de 12€ par mois!</b>
                                 </h2>
 
                                 <p>
@@ -263,7 +263,7 @@ export default function telephonie() {
                             <article className="media icon-box">
                                 <figure className="media-left">
                                     <p className="image">
-                                        <img src="/laptop-globe.svg" />
+                                        <img src="/laptop-globe.png" />
                                     </p>
                                 </figure>
                                 <div className="media-content mt-50">
@@ -280,7 +280,7 @@ export default function telephonie() {
                             <article className="media icon-box">
                                 <figure className="media-left">
                                     <p className="image">
-                                        <img src="/doc-sync.svg" />
+                                        <img src="/doc-sync.png" />
                                     </p>
                                 </figure>
                                 <div className="media-content mt-50">
@@ -297,7 +297,7 @@ export default function telephonie() {
                             <article className="media icon-box">
                                 <figure className="media-left">
                                     <p className="image">
-                                        <img src="/mobile-feed.svg" />
+                                        <img src="/mobile-feed.png" />
                                     </p>
                                 </figure>
                                 <div className="media-content mt-50">
