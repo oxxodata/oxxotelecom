@@ -28,7 +28,7 @@ export default function Navbar() {
                             <div className="navbar-dropdown">
                                 <Link href="/telephonie">
                                     <a className="navbar-item">
-                                        Standard Téléphonique
+                                        Ligne Fixe Business
                                     </a>
                                 </Link>
                                 <Link href="/trunksip/">
@@ -53,9 +53,19 @@ export default function Navbar() {
                                         ADSL Pro
                                     </a>
                                 </Link>
+                                <Link href="/4g">
+                                    <a className="navbar-item ">
+                                        Box 4G++
+                                    </a>
+                                </Link>
                                 <Link href="/vpn">
                                     <a className="navbar-item ">
                                         VPN & MPLS
+                                    </a>
+                                </Link>
+                                <Link href="/5g">
+                                    <a className="navbar-item ">
+                                        Téchnologie 5G
                                     </a>
                                 </Link>
                             </div>
@@ -66,9 +76,16 @@ export default function Navbar() {
                             </a>
 
                             <div className="navbar-dropdown">
-                                <a href="/mobile/" className="navbar-item">
-                                    Internet Mobile
-                            </a>
+                                <Link href="/mobile">
+                                    <a className="navbar-item ">
+                                        Téléphonie Mobile
+                                    </a>
+                                </Link>
+                                <Link href="/internet-mobile">
+                                    <a className="navbar-item ">
+                                        Internet Mobile
+                                    </a>
+                                </Link>
                             </div>
                         </div>
                         <a href="/contact" className="navbar-item">

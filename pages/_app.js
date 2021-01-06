@@ -3,6 +3,8 @@ import Head from 'next/head'
 import Topbar from '../components/Topbar'
 import Footer from '../components/Footer'
 import Reviews from '../components/Reviews'
+import 'react-web-tabs/dist/react-web-tabs.css'
+import '../components/tabs.css'
 
 function MyApp({ Component, pageProps }) {
   return <div>

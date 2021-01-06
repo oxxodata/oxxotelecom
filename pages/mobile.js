@@ -1,4 +1,7 @@
 import Navbar from "../components/Navbar";
+import { Tabs, Tab, TabPanel, TabList } from 'react-web-tabs'
+import PriceMobile from "../components/tabs/PriceMobile";
+
 
 export default function telephonie() {
     return (
@@ -10,7 +13,7 @@ export default function telephonie() {
                         <div className="columns is-vcentered">
                             <div className="column is-5 is-offset-1 landing-caption">
                                 <h1 className="title is-1 is-bold is-spaced">
-                                    Offres Mobile
+                                    Offres Téléphonie Mobile
                         </h1>
 
                                 <h2 className="subtitle is-5 is-muted">
@@ -58,74 +61,29 @@ export default function telephonie() {
                 </div>
             </section>
 
-            <section className="section is-medium hero is-fullheight">
-                <div className="snip1214" style={{ margin: '0 auto' }}>
-                    <div className="plan" style={{width: '20%'}}>
-                        <h3 className="plan-title">
-                            Mobile Pro 1 Go
-                        </h3>
-                        <div className="plan-cost"><span className="plan-price">15€</span><span className="plan-type">/ Mois</span></div>
-                        <ul className="plan-features">
-                            <li><i className="ion-checkmark"> </i>SMS et MMS illimités</li>
-                            <li><i className="ion-checkmark"> </i>Internet Mobile 1 Go</li>
-                            <li><i className="ion-checkmark"> </i>Orange, SFR et Bouygues</li>
-                            <li><i className="ion-checkmark"> </i>Option IP FIXE</li>
-                        </ul>
-                        <div className="plan-select"><a href="">Commander</a></div>
-                    </div>
-                    <div className="plan" style={{width: '20%'}}>
-                        <h3 className="plan-title">
-                            Mobile Pro 5 Go
-                        </h3>
-                        <div className="plan-cost"><span className="plan-price">21€</span><span className="plan-type">/ Mois</span></div>
-                        <ul className="plan-features">
-                            <li><i className="ion-checkmark"> </i>SMS et MMS illimités</li>
-                            <li><i className="ion-checkmark"> </i>Internet Mobile 5 Go</li>
-                            <li><i className="ion-checkmark"> </i>Orange, SFR et Bouygues</li>
-                            <li><i className="ion-checkmark"> </i>Option IP FIXE</li>
-                        </ul>
-                        <div className="plan-select"><a href="">Commander</a></div>
-                    </div>
-                    <div className="plan featured" style={{width: '20%'}}>
-                        <h3 className="plan-title">
-                            Mobile Pro 20 Go
-                        </h3>
-                        <div className="plan-cost"><span className="plan-price">24€</span><span className="plan-type">/ Mois</span></div>
-                        <ul className="plan-features">
-                            <li><i className="ion-checkmark"> </i>SMS et MMS illimités</li>
-                            <li><i className="ion-checkmark"> </i>Internet Mobile 20 Go</li>
-                            <li><i className="ion-checkmark"> </i>Orange, SFR et Bouygues</li>
-                            <li><i className="ion-checkmark"> </i>Option IP FIXE</li>
-                        </ul>
-                        <div className="plan-select"><a href="">Commander</a></div>
-                    </div>
-                    <div className="plan" style={{width: '20%'}}>
-                        <h3 className="plan-title">
-                            Mobile Pro 60 Go
-                        </h3>
-                        <div className="plan-cost"><span className="plan-price">39€</span><span className="plan-type">/ Mois</span></div>
-                        <ul className="plan-features">
-                            <li><i className="ion-checkmark"> </i>SMS et MMS illimités</li>
-                            <li><i className="ion-checkmark"> </i>Internet Mobile 60 Go</li>
-                            <li><i className="ion-checkmark"> </i>Orange, SFR et Bouygues</li>
-                            <li><i className="ion-checkmark"> </i>Option IP FIXE</li>
-                        </ul>
-                        <div className="plan-select"><a href="">Commander</a></div>
-                    </div>
-                    <div className="plan" style={{width: '20%'}}>
-                        <h3 className="plan-title">
-                            Mobile Pro 100 Go
-                        </h3>
-                        <div className="plan-cost"><span className="plan-price">39€</span><span className="plan-type">/ Mois</span></div>
-                        <ul className="plan-features">
-                            <li><i className="ion-checkmark"> </i>SMS et MMS illimités</li>
-                            <li><i className="ion-checkmark"> </i>Internet Mobile 100 Go</li>
-                            <li><i className="ion-checkmark"> </i>Orange, SFR et Bouygues</li>
-                            <li><i className="ion-checkmark"> </i>Option IP FIXE</li>
-                        </ul>
-                        <div className="plan-select"><a href="">Commander</a></div>
-                    </div>
+
+            <section className="section hero is-fullheight">
+            <Tabs
+                defaultTab="one"
+                onChange={(tabId) => { console.log(tabId) }}
+            >
+                <div style={{ width: '50rem', margin: 'auto', marginBottom: '40px' }}>
+                    <TabList>
+                        <Tab tabFor="one">Prix</Tab>
+                        <Tab tabFor="two">Info</Tab>
+                        <Tab tabFor="three">Fonctionnalités</Tab>
+                    </TabList>
                 </div>
+                <TabPanel tabId="one">
+                    <PriceMobile />
+                </TabPanel>
+                <TabPanel tabId="two">
+                    <p>Tab 2 content</p>
+                </TabPanel>
+                <TabPanel tabId="three">
+                    <p>Tab 3 content</p>
+                </TabPanel>
+            </Tabs>
             </section>
 
             <section className="section section-feature-grey is-medium">
@@ -332,6 +290,6 @@ export default function telephonie() {
                     </p>
                 </div>
             </section>
-        </div>
+        </div >
     )
 }
