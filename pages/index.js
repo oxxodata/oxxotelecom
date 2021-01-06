@@ -52,11 +52,6 @@ export default function Home() {
                                         <img className="partner-logo" src="/yealink_1.svg" />
                                     </a>
                                 </li>
-                                <li>
-                                    <a>
-                                        <img className="partner-logo" src="/sfr.svg" />
-                                    </a>
-                                </li>
                             </ul>
                         </div>
                     </div>
