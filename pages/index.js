@@ -192,7 +192,7 @@ export default function Home() {
                 <div className="column is-half">
                     <h3 style={{
                         fontFamily: 'open sans,sans-serif',
-                        fontSize: '1.2rem',
+                        fontSize: '35px',
                         fontWeight: '600', color: '#444f60',
                         paddingBottom: '1rem'
                     }}>Communiquez librement Téléphonie VoIP et Collaboration dans le Cloud</h3>
@@ -222,7 +222,7 @@ export default function Home() {
                 <div className="column is-half">
                     <h3 style={{
                         fontFamily: 'open sans,sans-serif',
-                        fontSize: '1.2rem',
+                        fontSize: '35px',
                         fontWeight: '600', color: '#444f60',
                         paddingBottom: '1rem'
                     }}>Connectez votre Téléphonie avec vos Logiciels Professionnels Préférés</h3>
