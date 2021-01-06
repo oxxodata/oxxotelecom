@@ -202,14 +202,18 @@ export default function Home() {
                         marginBottom: '1.25rem',
                         textRendering: 'optimizeLegibility',
                     }}>
-                        Téléphonie VoIP et Collaboration avancées pour la PME futée
-                        De nos jours, il est essentiel pour toute organisation d’avoir un système de téléphonie efficace et des outils de collaboration afin d’augmenter sa productivité et de mieux satisfaire ses clients.
+                        <div style={{ marginBottom: '10px' }}>
+                            Téléphonie VoIP et Collaboration avancées pour la PME futée
+                            De nos jours, il est essentiel pour toute organisation d’avoir un système de téléphonie efficace et des outils de collaboration afin d’augmenter sa productivité et de mieux satisfaire ses clients.
+                        </div>
 
+                        <div style={{ marginBottom: '10px' }}>
+                            OXXO Télécom s’adresse à toutes les entreprises qui souhaitent économiser près de 80% sur leur facture téléphonique et leurs outils de collaboration, tout en bénéficiant d’une meilleure mobilité et d’une plus grande flexibilité.
+                        </div>
 
-                        OXXO Télécom s’adresse à toutes les entreprises qui souhaitent économiser près de 80% sur leur facture téléphonique et leurs outils de collaboration, tout en bénéficiant d’une meilleure mobilité et d’une plus grande flexibilité.
-
-
-                        Avec la téléphonie avancée et les services de collaboration en cloud OXXO Télécom, vous pouvez concentrer votre attention sur votre activité principale sans devoir effectuer des investissements inutiles en infrastructure ou signer des contrats de maintenance coûteux. Il suffit de vous connecter sur Internet depuis votre téléphone IP, votre smartphone ou votre ordinateur : vous pouvez désormais communiquer de manière avancée et économique avec vos partenaires commerciaux et vos collègues, où que vous soyez, quand vous le voulez.
+                        <div style={{ marginBottom: '10px' }}>
+                            Avec la téléphonie avancée et les services de collaboration en cloud OXXO Télécom, vous pouvez concentrer votre attention sur votre activité principale sans devoir effectuer des investissements inutiles en infrastructure ou signer des contrats de maintenance coûteux. Il suffit de vous connecter sur Internet depuis votre téléphone IP, votre smartphone ou votre ordinateur : vous pouvez désormais communiquer de manière avancée et économique avec vos partenaires commerciaux et vos collègues, où que vous soyez, quand vous le voulez.
+                        </div>
                     </p>
                 </div>
             </div>
@@ -228,11 +232,17 @@ export default function Home() {
                         marginBottom: '1.25rem',
                         textRendering: 'optimizeLegibility',
                     }}>
-                        OXXO Télécom vous permetd’intégrer votre téléphonie à vos logiciels professionnels préférés tels que votre CRM, ERP, ticketing, reporting, productivité, etc.
+                        <div style={{ marginBottom: '10px' }}>
+                            OXXO Télécom vous permetd’intégrer votre téléphonie à vos logiciels professionnels préférés tels que votre CRM, ERP, ticketing, reporting, productivité, etc.
+                        </div>
 
-                        Lancez vos appels directement depuis votre logiciel, visualisez l’identité de l’appelant et ouvrez sa fiche dans votre logicielavant même d’avoir décroché. Bref, augmentez votre productivité et la satisfaction de vos clients.
+                        <div style={{ marginBottom: '10px' }}>
+                            Lancez vos appels directement depuis votre logiciel, visualisez l’identité de l’appelant et ouvrez sa fiche dans votre logicielavant même d’avoir décroché. Bref, augmentez votre productivité et la satisfaction de vos clients.
+                        </div>
 
-                        De plus, vous pouvez créer des scénarios sophistiqués en quelques clics pour transformer votre téléphonie en un canal de communication super intelligent ! En effet, votre téléphonie peut accéder à des données de votre logiciel professionnel afin de diriger au mieux l’appel. Par exemple : lorsqu’un client qui a des paiements en retard appelle, il est automatiquement redirigé vers la comptabilité.
+                        <div style={{ marginBottom: '10px' }}>
+                            De plus, vous pouvez créer des scénarios sophistiqués en quelques clics pour transformer votre téléphonie en un canal de communication super intelligent ! En effet, votre téléphonie peut accéder à des données de votre logiciel professionnel afin de diriger au mieux l’appel. Par exemple : lorsqu’un client qui a des paiements en retard appelle, il est automatiquement redirigé vers la comptabilité.
+                        </div>
                     </p>
                 </div>
                 <div className="column is-half" >
