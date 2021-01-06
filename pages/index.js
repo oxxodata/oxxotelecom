@@ -197,7 +197,7 @@ export default function Home() {
                         paddingBottom: '1rem'
                     }}>Communiquez librement Téléphonie VoIP et Collaboration dans le Cloud</h3>
                     <p style={{
-                        fontSize: '0.9rem',
+                        fontSize: '1rem',
                         fontWeight: '400',
                         marginBottom: '1.25rem',
                         textRendering: 'optimizeLegibility',
@@ -223,7 +223,7 @@ export default function Home() {
                         paddingBottom: '1rem'
                     }}>Connectez votre Téléphonie avec vos Logiciels Professionnels Préférés</h3>
                     <p style={{
-                        fontSize: '0.9rem',
+                        fontSize: '1rem',
                         fontWeight: '400',
                         marginBottom: '1.25rem',
                         textRendering: 'optimizeLegibility',
