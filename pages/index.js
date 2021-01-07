@@ -256,30 +256,6 @@ export default function Home() {
             <a href="/contact">
                 <img src="/ad-t41s.png?v=1" style={{ width: '100%', height: 'auto' }} />
             </a>
-
-            <section className="section section-feature-grey is-medium">
-                <div className="container">
-                    <div className="columns">
-                        <div className="column is-10 is-offset-1">
-                            <div className="has-text-centered">
-                                <img className="pushed-image" src="/3cx.png" />
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="title-wrapper has-text-centered">
-                        <h2 className="title is-2">N'hésitez plus!</h2>
-                        <h3 className="subtitle is-5 is-muted">Passer chez OXXO Télécom!
-                </h3>
-                    </div>
-
-                    <p className="has-text-centered mt-20">
-                        <a className="button cta is-large rounded secondary-btn raised" href="https://market.oxxodata.com/cart.php?gid=1">
-                            Commander
-                </a>
-                    </p>
-                </div>
-            </section>
         </div>
     )
 }
