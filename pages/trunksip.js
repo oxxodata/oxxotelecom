@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 
-export default function telephonie() {
+export default function trunksip() {
     return (
         <div>
             <section className="hero is-fullheight is-default is-bold">
@@ -45,13 +45,72 @@ export default function telephonie() {
             </section>
 
 
+            <section className="section is-medium hero">
+                <div className="snip1214" style={{ margin: 'auto' }}>
+                    <div className="plan" style={{ width: '20%' }}>
+                        <h3 className="plan-title">
+                            Pack S
+                        </h3>
+                        <div className="plan-cost"><span className="plan-price">15€</span><span className="plan-type">/ Mois</span></div>
+                        <ul className="plan-features">
+                            <li><i className="ion-checkmark"> </i>Engagement 12 mois</li>
+                            <li><i className="ion-checkmark"> </i>Nombre de ligne 1 à 10</li>
+                        </ul>
+                        <div className="plan-select"><a href="https://market.oxxodata.com/cart.php?a=add&pid=173">Commander</a></div>
+                    </div>
+                    <div className="plan" style={{ width: '20%' }}>
+                        <h3 className="plan-title">
+                            Pack M
+                        </h3>
+                        <div className="plan-cost"><span className="plan-price">14€</span><span className="plan-type">/ Mois</span></div>
+                        <ul className="plan-features">
+                            <li><i className="ion-checkmark"> </i>Engagement 12 mois</li>
+                            <li><i className="ion-checkmark"> </i>Nombre de ligne 10 à 30</li>
+                        </ul>
+                        <div className="plan-select"><a href="https://market.oxxodata.com/cart.php?a=add&pid=174">Commander</a></div>
+                    </div>
+                    <div className="plan" style={{ width: '20%' }}>
+                        <h3 className="plan-title">
+                            Pack L
+                        </h3>
+                        <div className="plan-cost"><span className="plan-price">13€</span><span className="plan-type">/ Mois</span></div>
+                        <ul className="plan-features">
+                            <li><i className="ion-checkmark"> </i>Engagement 12 mois</li>
+                            <li><i className="ion-checkmark"> </i>Nombre de ligne 30 à 50</li>
+                        </ul>
+                        <div className="plan-select"><a href="https://market.oxxodata.com/cart.php?a=add&pid=175">Commander</a></div>
+                    </div>
+                    <div className="plan" style={{ width: '20%' }}>
+                        <h3 className="plan-title">
+                            Pack XL
+                        </h3>
+                        <div className="plan-cost"><span className="plan-price">12€</span><span className="plan-type">/ Mois</span></div>
+                        <ul className="plan-features">
+                            <li><i className="ion-checkmark"> </i>Engagement 12 mois</li>
+                            <li><i className="ion-checkmark"> </i>Nombre de ligne supérieur à 50</li>
+                        </ul>
+                        <div className="plan-select"><a href="https://market.oxxodata.com/cart.php?a=add&pid=176">Commander</a></div>
+                    </div>
+                    <div className="plan featured" style={{ width: '20%' }}>
+                        <h3 className="plan-title">
+                            Pack Free
+                        </h3>
+                        <div className="plan-cost"><span className="plan-price">20€</span><span className="plan-type">/ Mois</span></div>
+                        <ul className="plan-features">
+                            <li><i className="ion-checkmark"> </i>Sans engagement</li>
+                            <li><i className="ion-checkmark"> </i>Nombre de lignes illimités</li>
+                        </ul>
+                        <div className="plan-select"><a href="https://market.oxxodata.com/cart.php?a=add&pid=179">Commander</a></div>
+                    </div>
+                </div>
+            </section>
 
 
             <section className="section section-feature-grey is-medium">
                 <div className="container">
-                    <div className="title-wrapper has-text-centered" style={{maxWidth: '1000px'}}>
+                    <div className="title-wrapper has-text-centered" style={{ maxWidth: '1000px' }}>
                         <h3 className="title is-3">Trunk SIP, qu’est-ce que c’est ?</h3>
-                        <h5 className="subtitle is-5 is-muted" style={{marginTop: '10px'}}>Pour raccorder un IPBX (central téléphonique sur IP), il est généralement plus économique d’utiliser un lien de connexion dénommé « trunk SIP ». Le Trunk SIP est donc un composant des technologies IPBX ou Centrex qui permet de bénéficier
+                        <h5 className="subtitle is-5 is-muted" style={{ marginTop: '10px' }}>Pour raccorder un IPBX (central téléphonique sur IP), il est généralement plus économique d’utiliser un lien de connexion dénommé « trunk SIP ». Le Trunk SIP est donc un composant des technologies IPBX ou Centrex qui permet de bénéficier
                         de forfaits VoIP à la minute avec de tarifs plus attractifs grâce aux accords avec certains opérateurs téléphoniques.
                     <br /> Le lien SIP Trunk permet de véhiculer les appels émis et reçus entre le réseau IPBX et le réseau téléphonique public (RTC-RNIS). Bien que la majorité des opérateurs téléphoniques (TELCO) fournissent la possibilité de s’interconnecter
                             au Trunk SIP, tous ne proposent pas encore cette fonctionnalité VoIP. Il peut donc être nécessaire d’effectuer la portabilité des numéros de votre opérateur actuel vers un nouvel opérateur compatible pour interconnecter votre IPBX
@@ -60,17 +119,17 @@ export default function telephonie() {
                         <div className="divider is-centered"></div>
                     </div>
 
-                    <div className="title-wrapper has-text-centered" style={{maxWidth: '1000px', marginTop: '50px'}}>
+                    <div className="title-wrapper has-text-centered" style={{ maxWidth: '1000px', marginTop: '50px' }}>
                         <h3 className="title is-3">Définition du Trunk SIP</h3>
-                        <h5 className="subtitle is-5 is-muted" style={{marginTop: '10px'}}>SIP Session Initiation Protocol est le protocole de communication utilisé par les équipements de type « IPBX » pour dialoguer entre eux et pour dialoguer avec les opérateurs qui routent les appels aux quatre coins du globe.
+                        <h5 className="subtitle is-5 is-muted" style={{ marginTop: '10px' }}>SIP Session Initiation Protocol est le protocole de communication utilisé par les équipements de type « IPBX » pour dialoguer entre eux et pour dialoguer avec les opérateurs qui routent les appels aux quatre coins du globe.
                     <br /> Trunk désigne un ensemble de liens/canaux/faisceaux car il permet d’acheminer plusieurs communications simultanées.
                 </h5>
                         <div className="divider is-centered"></div>
                     </div>
 
-                    <div className="title-wrapper has-text-centered" style={{maxWidth: '1000px', marginTop: '50px'}}>
+                    <div className="title-wrapper has-text-centered" style={{ maxWidth: '1000px', marginTop: '50px' }}>
                         <h3 className="title is-3">Téléphonie VoIP avec le Trunk SIP</h3>
-                        <h5 className="subtitle is-5 is-muted" style={{marginTop: '10px'}}>La téléphonie IP avec trunk SIP vous permet de bénéficier d’un abonnement téléphonique plus avantageux et d’interconnecter tout votre réseau interne plus simplement. Pour bien démarrer votre installation Trunk SIP, il est essentiel de
+                        <h5 className="subtitle is-5 is-muted" style={{ marginTop: '10px' }}>La téléphonie IP avec trunk SIP vous permet de bénéficier d’un abonnement téléphonique plus avantageux et d’interconnecter tout votre réseau interne plus simplement. Pour bien démarrer votre installation Trunk SIP, il est essentiel de
                         comprendre les grandes notions autour de la technologie SIP.
                     <br /> Lors de la commande de votre abonnement téléphonique pour une liaison trunk SIP, il vous faudra définir le nombre de canaux de communications simultanés nécessaires pour votre entreprise. Pour déterminer ce nombre de canaux Trunk,
                                     il vous faut choisir le moment le plus chargé de la journée et relever le nombre d’appels reçus et émis en même temps.

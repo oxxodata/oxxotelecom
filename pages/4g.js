@@ -9,7 +9,7 @@ export default function fibre() {
                     <div className="container">
                         <div className="columns is-vcentered">
                             <div className="column is-5 is-offset-1 landing-caption">
-                                <h1 className="title is-1 is-bold is-spaced">Fibre</h1>
+                                <h1 className="title is-1 is-bold is-spaced">Box 4G++</h1>
                                 <h2 className="subtitle is-5 is-muted">Lien fibre/modem abonné monitorés par l'équipe technique 24h/24h Réactivité d’intervention rapide en cas de problème ou de dysfonctionnement.</h2>
                                 <p>
                                     <a className="button cta rounded primary-btn raised" href="https://market.oxxodata.com/cart.php?gid=17">Commander</a>

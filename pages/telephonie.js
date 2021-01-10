@@ -1,4 +1,7 @@
 import Navbar from "../components/Navbar"
+import { Tabs, Tab, TabPanel, TabList } from 'react-web-tabs'
+import PriceFixe from "../components/tabs/PriceFixe"
+
 
 export default function telephonie() {
     return (
@@ -51,91 +54,81 @@ export default function telephonie() {
                     </div>
                 </div>
             </section>
-            <section className="section is-medium hero is-fullheight">
-                <div className="snip1214" style={{ margin: 'auto' }}>
-                    <div className="plan">
-                        <h3 className="plan-title">
-                            Pack Free
-                        </h3>
-                        <div className="plan-cost"><span className="plan-price">20€</span><span className="plan-type">/ Mois</span></div>
-                        <ul className="plan-features">
-                            <li><i className="ion-checkmark"> </i>Sans engagement</li>
-                            <li><i className="ion-checkmark"> </i>Illimité SMS</li>
-                            <li><i className="ion-checkmark"> </i>Illimité Fixe et Mobile</li>
-                            <li><i className="ion-checkmark"> </i>Illimité 100 destinations externes</li>
-                        </ul>
-                        <div className="plan-select"><a href="">Commander</a></div>
+            <section className="section is-medium hero">
+                <Tabs
+                    defaultTab="one"
+                    onChange={(tabId) => { console.log(tabId) }}
+                >
+                    <div style={{ width: '50rem', margin: 'auto', marginBottom: '40px' }}>
+                        <TabList>
+                            <div style={{ margin: 'auto', width: '46%' }}>
+                                <Tab tabFor="one"><b>Prix</b></Tab>
+                                <Tab tabFor="two"><b>Info</b></Tab>
+                                <Tab tabFor="three"><b>Fonctionnalités</b></Tab>
+                            </div>
+                        </TabList>
                     </div>
-                    <div className="plan">
-                        <h3 className="plan-title">
-                            Pack Pro
-                        </h3>
-                        <div className="plan-cost"><span className="plan-price">12€</span><span className="plan-type">/ Mois</span></div>
-                        <ul className="plan-features">
-                            <li><i className="ion-checkmark"> </i>Engagement 12 mois</li>
-                            <li><i className="ion-checkmark"> </i>Illimité SMS</li>
-                            <li><i className="ion-checkmark"> </i>Illimité Fixe et Mobile</li>
-                            <li><i className="ion-checkmark"> </i>Illimité 100 destinations externes</li>
-                        </ul>
-                        <div className="plan-select"><a href="">Commander</a></div>
-                    </div>
-                    <div className="plan featured">
-                        <h3 className="plan-title">
-                            Trunk SIP
-                        </h3>
-                        <div className="plan-cost"><span className="plan-price">24€</span><span className="plan-type">/ Mois</span></div>
-                        <ul className="plan-features">
-                            <li><i className="ion-checkmark"> </i>1 Canal</li>
-                            <li><i className="ion-checkmark"> </i>2 Appels entrant</li>
-                            <li><i className="ion-checkmark"> </i>1 Appel sortant</li>
-                            <li><i className="ion-checkmark"> </i>Illimité SMS</li>
-                            <li><i className="ion-checkmark"> </i>Illimité Fixe et Mobile</li>
-                            <li><i className="ion-checkmark"> </i>Illimité 100 destinations externes</li>
-                        </ul>
-                        <div className="plan-select"><a href="">Commander</a></div>
-                    </div>
-                </div>
-                <div class="columns is-mobile is-centered" style={{marginTop: '20px'}}>
-                    <div class="column is-one-quarter">
-                        <ul>
-                            <li><i style={{marginLeft: '20px'}} className="fa fa-exchange" aria-hidden="true" style={{marginRight: '5px'}} /> Transfert</li>
-                            <li><i style={{marginLeft: '20px'}} className="fa fa-share" aria-hidden="true" style={{marginRight: '5px'}} /> Renvoi d’appel</li>
-                            <li><i style={{marginLeft: '20px'}} className="fa fa-music" aria-hidden="true" style={{marginRight: '5px'}} /> Sonneries personnalisables</li>
-                            <li><i style={{marginLeft: '20px'}} className="fa fa-music" aria-hidden="true" style={{marginRight: '5px'}} /> Musique d’attente</li>
-                            <li><i style={{marginLeft: '20px'}} className="fa fa-phone" aria-hidden="true" style={{marginRight: '5px'}} /> Double appel</li>
-                            <li><i style={{marginLeft: '20px'}} className="fa fa-phone" aria-hidden="true" style={{marginRight: '5px'}} /> Parking</li>
-                            <li><i style={{marginLeft: '20px'}} className="fa fa-phone" aria-hidden="true" style={{marginRight: '5px'}} /> Pickup</li>
-                            <li><i style={{marginLeft: '20px'}} className="fa fa-microphone" aria-hidden="true" style={{marginRight: '5px'}} /> Enregistrement d’appel</li>
-                            <li><i style={{marginLeft: '20px'}} className="fa fa-microphone" aria-hidden="true" style={{marginRight: '5px'}} /> Messagerie vocale</li>
-                            <li><i style={{marginLeft: '20px'}} className="fa fa-fax" aria-hidden="true" style={{marginRight: '5px'}} /> Fax out</li>
-                            <li><i style={{marginLeft: '20px'}} className="fa fa-fax" aria-hidden="true" style={{marginRight: '5px'}} /> Fax in</li>
-                            <li><i style={{marginLeft: '20px'}} className="fa fa-book" aria-hidden="true" style={{marginRight: '5px'}} /> Annuaires</li>
-                            <li><i style={{marginLeft: '20px'}} className="fa fa-book" aria-hidden="true" style={{marginRight: '5px'}} /> Contact Sync</li>
-                            <li><i style={{marginLeft: '20px'}} className="fa fa-history" aria-hidden="true" style={{marginRight: '5px'}} /> Historique d’appels</li>
-                            <li><i style={{marginLeft: '20px'}} className="fa fa-columns" aria-hidden="true" style={{marginRight: '5px'}} /> Portail utilisateur</li>
-                            <li><i style={{marginLeft: '20px'}} className="fa fa-phone" aria-hidden="true" style={{marginRight: '5px'}} /> Click to Call</li>
-                        </ul>
-                    </div>
-                    <div class="column is-one-quarter">
-                        <ul>
-                            <li><i style={{marginLeft: '20px'}} className="fa fa-phone" aria-hidden="true" style={{marginRight: '5px'}} /> Notification d’appel</li>
-                            <li><i style={{marginLeft: '20px'}} className="fa fa-phone" aria-hidden="true" style={{marginRight: '5px'}} /> Groupe</li>
-                            <li><i style={{marginLeft: '20px'}} className="fa fa-phone" aria-hidden="true" style={{marginRight: '5px'}} /> Menu - Serveur Vocal Interactif</li>
-                            <li><i style={{marginLeft: '20px'}} className="fa fa-phone" aria-hidden="true" style={{marginRight: '5px'}} /> Nom de ligne entrante</li>
-                            <li><i style={{marginLeft: '20px'}} className="fa fa-phone" aria-hidden="true" style={{marginRight: '5px'}} /> Calendrier</li>
-                            <li><i style={{marginLeft: '20px'}} className="fa fa-phone" aria-hidden="true" style={{marginRight: '5px'}} /> Appels Vidéo</li>
-                            <li><i style={{marginLeft: '20px'}} className="fa fa-phone" aria-hidden="true" style={{marginRight: '5px'}} /> Numéros internationaux</li>
-                            <li><i style={{marginLeft: '20px'}} className="fa fa-phone" aria-hidden="true" style={{marginRight: '5px'}} /> Opérateur international</li>
-                            <li><i style={{marginLeft: '20px'}} className="fa fa-phone" aria-hidden="true" style={{marginRight: '5px'}} /> Softphone</li>
-                            <li><i style={{marginLeft: '20px'}} className="fa fa-phone" aria-hidden="true" style={{marginRight: '5px'}} /> Webphone</li>
-                            <li><i style={{marginLeft: '20px'}} className="fa fa-phone" aria-hidden="true" style={{marginRight: '5px'}} /> Numéro unique</li>
-                            <li><i style={{marginLeft: '20px'}} className="fa fa-phone" aria-hidden="true" style={{marginRight: '5px'}} /> Flex desking</li>
-                            <li><i style={{marginLeft: '20px'}} className="fa fa-phone" aria-hidden="true" style={{marginRight: '5px'}} /> Salons de conférence</li>
-                            <li><i style={{marginLeft: '20px'}} className="fa fa-phone" aria-hidden="true" style={{marginRight: '5px'}} /> Web Meeting Lite</li>
-                            <li><i style={{marginLeft: '20px'}} className="fa fa-phone" aria-hidden="true" style={{marginRight: '5px'}} /> Privacy</li>
-                        </ul>
-                    </div>
-                </div>
+                    <TabPanel tabId="one">
+                        <PriceFixe />
+                    </TabPanel>
+                    <TabPanel tabId="two">
+                        <p style={{ padding: '0 100px', textAlign: 'center' }}>Portabilité de numeros fixe 10 euros / Numeros<br />
+Création illimité de Numéro(s) non géographique(s) ( FMS = 0 euros ) (Abo/Récurrence : 1 euros / mois / numéros )<br />
+Création Numéro(s) non géographique(s) Gold ( FMS = 100 euros ) (Abo/Récurrence : 1 euros / mois / numéros )<br />
+Création illimitée de numéros SDA ( 04 , 02 ,01 ,03 ... ) ( FMS = 0 euros ) (Abo/Récurrence : 5 euros / mois / tranche de 5 numéros )<br />
+Création illimitée de numéros SDA Gomd ( 04 , 02 ,01 ,03 ... ) ( FMS = 100 euros ) (Abo/Récurrence : 5 euros / mois / tranche de 5 numéros )<br />
+Création de numéros étrangers ( Nous consulter )<br />
+Pays disponibles : Croatie, Danemark, Géorgie,
+Allemagne, Hong Kong, Irlande, Pays-Bas, Norvège, Singapour,
+Corée du Sud, Espagne, Turquie, Pologne. Hongrie, Suède, Slovaquie,
+Slovénie, Roumanie, Luxembourg, Finlande, Canada,UK,Swisse<br />
+Création de numeros 08 ( Nous consulter )<br />
+Création de numeros Numéros 08 Premium ( Nous consulter )</p>
+                    </TabPanel>
+                    <TabPanel tabId="three">
+                        <div class="columns is-mobile is-centered" style={{ marginTop: '20px' }}>
+                            <div class="column is-one-quarter">
+                                <ul>
+                                    <li><i style={{ marginLeft: '20px' }} className="fa fa-exchange" aria-hidden="true" style={{ marginRight: '5px' }} /> Transfert</li>
+                                    <li><i style={{ marginLeft: '20px' }} className="fa fa-share" aria-hidden="true" style={{ marginRight: '5px' }} /> Renvoi d’appel</li>
+                                    <li><i style={{ marginLeft: '20px' }} className="fa fa-music" aria-hidden="true" style={{ marginRight: '5px' }} /> Sonneries personnalisables</li>
+                                    <li><i style={{ marginLeft: '20px' }} className="fa fa-music" aria-hidden="true" style={{ marginRight: '5px' }} /> Musique d’attente</li>
+                                    <li><i style={{ marginLeft: '20px' }} className="fa fa-phone" aria-hidden="true" style={{ marginRight: '5px' }} /> Double appel</li>
+                                    <li><i style={{ marginLeft: '20px' }} className="fa fa-phone" aria-hidden="true" style={{ marginRight: '5px' }} /> Parking</li>
+                                    <li><i style={{ marginLeft: '20px' }} className="fa fa-phone" aria-hidden="true" style={{ marginRight: '5px' }} /> Pickup</li>
+                                    <li><i style={{ marginLeft: '20px' }} className="fa fa-microphone" aria-hidden="true" style={{ marginRight: '5px' }} /> Enregistrement d’appel</li>
+                                    <li><i style={{ marginLeft: '20px' }} className="fa fa-microphone" aria-hidden="true" style={{ marginRight: '5px' }} /> Messagerie vocale</li>
+                                    <li><i style={{ marginLeft: '20px' }} className="fa fa-fax" aria-hidden="true" style={{ marginRight: '5px' }} /> Fax out</li>
+                                    <li><i style={{ marginLeft: '20px' }} className="fa fa-fax" aria-hidden="true" style={{ marginRight: '5px' }} /> Fax in</li>
+                                    <li><i style={{ marginLeft: '20px' }} className="fa fa-book" aria-hidden="true" style={{ marginRight: '5px' }} /> Annuaires</li>
+                                    <li><i style={{ marginLeft: '20px' }} className="fa fa-book" aria-hidden="true" style={{ marginRight: '5px' }} /> Contact Sync</li>
+                                    <li><i style={{ marginLeft: '20px' }} className="fa fa-history" aria-hidden="true" style={{ marginRight: '5px' }} /> Historique d’appels</li>
+                                    <li><i style={{ marginLeft: '20px' }} className="fa fa-columns" aria-hidden="true" style={{ marginRight: '5px' }} /> Portail utilisateur</li>
+                                    <li><i style={{ marginLeft: '20px' }} className="fa fa-phone" aria-hidden="true" style={{ marginRight: '5px' }} /> Click to Call</li>
+                                </ul>
+                            </div>
+                            <div class="column is-one-quarter">
+                                <ul>
+                                    <li><i style={{ marginLeft: '20px' }} className="fa fa-phone" aria-hidden="true" style={{ marginRight: '5px' }} /> Notification d’appel</li>
+                                    <li><i style={{ marginLeft: '20px' }} className="fa fa-phone" aria-hidden="true" style={{ marginRight: '5px' }} /> Groupe</li>
+                                    <li><i style={{ marginLeft: '20px' }} className="fa fa-phone" aria-hidden="true" style={{ marginRight: '5px' }} /> Menu - Serveur Vocal Interactif</li>
+                                    <li><i style={{ marginLeft: '20px' }} className="fa fa-phone" aria-hidden="true" style={{ marginRight: '5px' }} /> Nom de ligne entrante</li>
+                                    <li><i style={{ marginLeft: '20px' }} className="fa fa-phone" aria-hidden="true" style={{ marginRight: '5px' }} /> Calendrier</li>
+                                    <li><i style={{ marginLeft: '20px' }} className="fa fa-phone" aria-hidden="true" style={{ marginRight: '5px' }} /> Appels Vidéo</li>
+                                    <li><i style={{ marginLeft: '20px' }} className="fa fa-phone" aria-hidden="true" style={{ marginRight: '5px' }} /> Numéros internationaux</li>
+                                    <li><i style={{ marginLeft: '20px' }} className="fa fa-phone" aria-hidden="true" style={{ marginRight: '5px' }} /> Opérateur international</li>
+                                    <li><i style={{ marginLeft: '20px' }} className="fa fa-phone" aria-hidden="true" style={{ marginRight: '5px' }} /> Softphone</li>
+                                    <li><i style={{ marginLeft: '20px' }} className="fa fa-phone" aria-hidden="true" style={{ marginRight: '5px' }} /> Webphone</li>
+                                    <li><i style={{ marginLeft: '20px' }} className="fa fa-phone" aria-hidden="true" style={{ marginRight: '5px' }} /> Numéro unique</li>
+                                    <li><i style={{ marginLeft: '20px' }} className="fa fa-phone" aria-hidden="true" style={{ marginRight: '5px' }} /> Flex desking</li>
+                                    <li><i style={{ marginLeft: '20px' }} className="fa fa-phone" aria-hidden="true" style={{ marginRight: '5px' }} /> Salons de conférence</li>
+                                    <li><i style={{ marginLeft: '20px' }} className="fa fa-phone" aria-hidden="true" style={{ marginRight: '5px' }} /> Web Meeting Lite</li>
+                                    <li><i style={{ marginLeft: '20px' }} className="fa fa-phone" aria-hidden="true" style={{ marginRight: '5px' }} /> Privacy</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </TabPanel>
+                </Tabs>
 
             </section>
 

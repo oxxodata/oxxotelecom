@@ -1,6 +1,6 @@
 import Navbar from '../components/Navbar'
 
-export default function Home() {
+export default function index() {
     return (
         <div>
             <section className="hero is-fullheight is-default is-bold">

@@ -48,7 +48,7 @@ export default function Navbar() {
                                         Fibre Pro
                                     </a>
                                 </Link>
-                                <Link href="/adsl">
+                                <Link href="/fibre">
                                     <a className="navbar-item ">
                                         ADSL Pro
                                     </a>
@@ -88,9 +88,9 @@ export default function Navbar() {
                                 </Link>
                             </div>
                         </div>
-                        <a href="/contact" className="navbar-item">
+                        <a href="/devis" className="navbar-item">
                             <span className="button signup-button rounded secondary-btn raised">
-                                Contactez-nous
+                                Demandez un devis
                         </span>
                         </a>
                     </div>

@@ -1,9 +1,9 @@
 import Navbar from "../components/Navbar";
 import { Tabs, Tab, TabPanel, TabList } from 'react-web-tabs'
-import PriceMobile from "../components/tabs/PriceMobile"
+import PriceMobileInternet from "../components/tabs/PriceMobileInternet";
 
 
-export default function mobile() {
+export default function internetMobile() {
     return (
         <div>
             <section className="hero is-fullheight is-default is-bold">
@@ -13,11 +13,11 @@ export default function mobile() {
                         <div className="columns is-vcentered">
                             <div className="column is-5 is-offset-1 landing-caption">
                                 <h1 className="title is-1 is-bold is-spaced">
-                                    Offres Téléphonie Mobile
+                                    Offres Internet Mobile
                         </h1>
 
                                 <h2 className="subtitle is-5 is-muted">
-                                    Opter pour la meilleur solution de téléphonie mobile qui combine mobilité et rapidité.
+                                    Opter pour la meilleur solution d'internet mobile qui combine mobilité et rapidité.
                         </h2>
 
                                 <p>
@@ -72,16 +72,10 @@ export default function mobile() {
                         </TabList>
                     </div>
                     <TabPanel tabId="one">
-                        <PriceMobile />
+                        <PriceMobileInternet />
                     </TabPanel>
                     <TabPanel tabId="two">
-                        <p style={{ padding: '0 100px', textAlign: 'center'}}>Offre Mobile Pro sans engagement et illimité vers la zone 1 et depuis la zone1 :
-                        Austria, Belgium, Denmark, Finland, France, Germany, Greece, Ireland, Italy, Luxemburg, Netherlands,
-                        Portugal, Spain, Sweden, UK, Bulgaria, Cyprus, Czech Republic, Estonia, Hungary, Latvia, Lithuania,
-                        Malta, Poland, Romania, Slovenia, Slovakia, Gibraltar, Guadeloupe, Martinique, Reunion (La), French
-                        Guiana, Iceland, Liechtenstein, Norway, Croatia, Mayotte, Saint Pierre and Miquelon, St Barthelemy,
-St Martin. <br />
-Permet de changé l'opérateur mobile a n'importe quel moment et gratuitement.
+                        <p style={{ padding: '0 100px', textAlign: 'center' }}>Offre sans engagement, permet de changé l'opérateur mobile a n'importe quel moment et gratuitement.
                         <br />
                         Protection des transactions bancaires
 Antivol / Blocage des applications / Anti-hameçonnage (anti-phishing)
@@ -90,7 +84,7 @@ Filtrage des appels / Analyse planifiée / Mise à jour automatique de la base d
                     <TabPanel tabId="three">
                         <div className="columns" style={{ padding: '5rem' }}>
                             <div className="column is-half" >
-                                <img src="/switching.png" style={{height: '500px', margin: 'auto'}} />
+                                <img src="/switching.png" style={{ height: '500px', margin: 'auto' }} />
                             </div>
                             <div className="column is-half">
                                 <h3 style={{
