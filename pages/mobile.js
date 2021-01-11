@@ -108,7 +108,7 @@ Filtrage des appels / Analyse planifiée / Mise à jour automatique de la base d
                     <TabPanel tabId="three">
                         <div className="columns" style={{ padding: '5rem' }}>
                             <div className="column is-half" >
-                                <img src="/switching.png" style={{ height: '500px', margin: 'auto' }} />
+                                <img src="/switching.png" style={{ height: 'auto', margin: 'auto' }} />
                             </div>
                             <div className="column is-half">
                                 <h3 style={{
