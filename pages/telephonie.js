@@ -59,7 +59,7 @@ export default function telephonie() {
                     defaultTab="one"
                     onChange={(tabId) => { console.log(tabId) }}
                 >
-                    <div style={{ width: '50rem', margin: 'auto', marginBottom: '40px' }}>
+                    <div style={{ width: '10rem', margin: 'auto', marginBottom: '40px' }}>
                         <TabList>
                             <div style={{ margin: 'auto', width: '46%' }}>
                                 <Tab tabFor="one"><b>Prix</b></Tab>
