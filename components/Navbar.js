@@ -88,7 +88,7 @@ export default function Navbar() {
                                 </Link>
                             </div>
                         </div>
-                        <a href="/devis" className="navbar-item">
+                        <a href="https://form.typeform.com/to/y7qfA7Lb" className="navbar-item">
                             <span className="button signup-button rounded secondary-btn raised">
                                 Demandez un devis
                         </span>

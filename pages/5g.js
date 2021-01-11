@@ -12,7 +12,9 @@ export default function trunksip() {
                                 <h1 className="title is-1 is-bold is-spaced">Téchnologie 5G</h1>
                                 <h2 className="subtitle is-5 is-muted">Une connexion a trés haut débits sur mobile.</h2>
                                 <p>
-                                    <a className="button cta rounded primary-btn raised" href="https://market.oxxodata.com/cart.php?gid=1">Commander</a>
+                                <a className="button cta rounded primary-btn raised" href="https://form.typeform.com/to/y7qfA7Lb">
+                                        Demandez un devis
+                            </a>
                                 </p>
                             </div>
                             <div className="column is-5 is-offset-1">

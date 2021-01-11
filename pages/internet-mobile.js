@@ -21,9 +21,8 @@ export default function internetMobile() {
                         </h2>
 
                                 <p>
-                                    <a className="button cta rounded primary-btn raised"
-                                        href="https://market.oxxodata.com/cart.php?gid=1">
-                                        Commander
+                                <a className="button cta rounded primary-btn raised" href="https://form.typeform.com/to/y7qfA7Lb">
+                                        Demandez un devis
                             </a>
                                 </p>
                             </div>
@@ -75,11 +74,29 @@ export default function internetMobile() {
                         <PriceMobileInternet />
                     </TabPanel>
                     <TabPanel tabId="two">
-                        <p style={{ padding: '0 100px', textAlign: 'center' }}>Offre sans engagement, permet de changé l'opérateur mobile a n'importe quel moment et gratuitement.
-                        <br />
-                        Protection des transactions bancaires
-Antivol / Blocage des applications / Anti-hameçonnage (anti-phishing)
-Filtrage des appels / Analyse planifiée / Mise à jour automatique de la base de données des virus.</p>
+                        <div className="columns" style={{ padding: '5rem' }}>
+                            <div className="column is-half" >
+                                <img src="/europe.png" style={{ height: '400px', margin: 'auto' }} />
+                            </div>
+                            <div className="column is-half">
+                                <h3 style={{
+                                    fontFamily: 'open sans,sans-serif',
+                                    fontSize: '35px',
+                                    fontWeight: '600', color: '#444f60',
+                                    paddingBottom: '1rem'
+                                }}>C'est quoi l'offre Internet Pro</h3>
+                                <p style={{
+                                    fontSize: '1rem',
+                                    fontWeight: '400',
+                                    marginBottom: '1.25rem',
+                                    textRendering: 'optimizeLegibility',
+                                }}>Offre sans engagement, permet de changé l'opérateur mobile a n'importe quel moment et gratuitement.
+                                <br />
+                                Profitez d’une connexion internet sans ralentissements grâce à l’intégration d’une technologie ultra performante.
+                                <br />
+                                </p>
+                            </div>
+                        </div>
                     </TabPanel>
                     <TabPanel tabId="three">
                         <div className="columns" style={{ padding: '5rem' }}>
@@ -293,33 +310,6 @@ Filtrage des appels / Analyse planifiée / Mise à jour automatique de la base d
                             </article>
                         </div>
                     </div>
-                </div>
-            </section>
-
-
-
-
-            <section className="section section-feature-grey is-medium">
-                <div className="container">
-                    <div className="columns">
-                        <div className="column is-10 is-offset-1">
-                            <div className="has-text-centered">
-                                <img className="pushed-image" src="/3cx.png" />
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="title-wrapper has-text-centered">
-                        <h2 className="title is-2">N'hésitez plus!</h2>
-                        <h3 className="subtitle is-5 is-muted">Passer chez OXXO Télécom!
-                </h3>
-                    </div>
-
-                    <p className="has-text-centered mt-20">
-                        <a className="button cta is-large rounded secondary-btn raised" href="https://market.oxxodata.com/cart.php?gid=1">
-                            Commander
-                </a>
-                    </p>
                 </div>
             </section>
         </div >

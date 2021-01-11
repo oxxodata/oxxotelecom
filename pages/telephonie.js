@@ -22,7 +22,7 @@ export default function telephonie() {
 
                                 <p>
                                     <a className="button cta rounded primary-btn raised" href="https://form.typeform.com/to/y7qfA7Lb">
-                                        Testé Gratuitement
+                                        Demandez un devis
                             </a>
                                 </p>
                             </div>
@@ -348,33 +348,6 @@ Création de numeros Numéros 08 Premium ( Nous consulter )</p>
                             </article>
                         </div>
                     </div>
-                </div>
-            </section>
-
-
-
-
-            <section className="section section-feature-grey is-medium">
-                <div className="container">
-                    <div className="columns">
-                        <div className="column is-10 is-offset-1">
-                            <div className="has-text-centered">
-                                <img className="pushed-image" src="/3cx.png" />
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="title-wrapper has-text-centered">
-                        <h2 className="title is-2">N'hésitez plus!</h2>
-                        <h3 className="subtitle is-5 is-muted">Passer chez OXXO Télécom!
-                </h3>
-                    </div>
-
-                    <p className="has-text-centered mt-20">
-                        <a className="button cta is-large rounded secondary-btn raised" href="https://market.oxxodata.com/cart.php?gid=1">
-                            Commander
-                </a>
-                    </p>
                 </div>
             </section>
             <div className="modal" id="install">

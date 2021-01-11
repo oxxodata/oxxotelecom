@@ -12,8 +12,9 @@ export default function fibre() {
                                 <h1 className="title is-1 is-bold is-spaced">Box 4G++</h1>
                                 <h2 className="subtitle is-5 is-muted">Lien fibre/modem abonné monitorés par l'équipe technique 24h/24h Réactivité d’intervention rapide en cas de problème ou de dysfonctionnement.</h2>
                                 <p>
-                                    <a className="button cta rounded primary-btn raised" href="https://market.oxxodata.com/cart.php?gid=17">Commander</a>
-                                </p>
+                                    <a className="button cta rounded primary-btn raised" href="https://form.typeform.com/to/y7qfA7Lb">
+                                        Demandez un devis
+                            </a>                                </p>
                             </div>
                             <div className="column is-5 is-offset-1">
                                 <figure className="image is-4by3">
@@ -219,7 +220,7 @@ export default function fibre() {
                     <div className="columns">
                         <div className="column is-10 is-offset-1">
                             <div className="has-text-centered">
-                                <img style={{height: '300px', width: 'auto'}} className="pushed-image" src="/oxxo_modem.png" />
+                                <img style={{ height: '300px', width: 'auto' }} className="pushed-image" src="/oxxo_modem.png" />
                             </div>
                         </div>
                     </div>

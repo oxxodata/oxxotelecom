@@ -12,7 +12,9 @@ export default function trunksip() {
                                 <h1 className="title is-1 is-bold is-spaced">Trunk SIP</h1>
                                 <h2 className="subtitle is-5 is-muted">Le SIP Trunk représente le lien essentiel au raccordement entre IPBX et réseau téléphonique public.</h2>
                                 <p>
-                                    <a className="button cta rounded primary-btn raised" href="https://market.oxxodata.com/cart.php?gid=1">Commander</a>
+                                <a className="button cta rounded primary-btn raised" href="https://form.typeform.com/to/y7qfA7Lb">
+                                        Demandez un devis
+                            </a>
                                 </p>
                             </div>
                             <div className="column is-5 is-offset-1">
@@ -47,55 +49,22 @@ export default function trunksip() {
 
             <section className="section is-medium hero">
                 <div className="snip1214" style={{ margin: 'auto' }}>
-                    <div className="plan" style={{ width: '20%' }}>
-                        <h3 className="plan-title">
-                            Pack S
-                        </h3>
-                        <div className="plan-cost"><span className="plan-price">15€</span><span className="plan-type">/ Mois</span></div>
-                        <ul className="plan-features">
-                            <li><i className="ion-checkmark"> </i>Engagement 12 mois</li>
-                            <li><i className="ion-checkmark"> </i>Nombre de ligne 1 à 10</li>
-                        </ul>
-                        <div className="plan-select"><a href="https://market.oxxodata.com/cart.php?a=add&pid=173">Commander</a></div>
-                    </div>
-                    <div className="plan" style={{ width: '20%' }}>
+                    <div className="plan">
                         <h3 className="plan-title">
                             Pack M
                         </h3>
-                        <div className="plan-cost"><span className="plan-price">14€</span><span className="plan-type">/ Mois</span></div>
+                        <div className="plan-cost"><span className="plan-price">10€</span><span className="plan-type">/ Mois</span></div>
                         <ul className="plan-features">
                             <li><i className="ion-checkmark"> </i>Engagement 12 mois</li>
-                            <li><i className="ion-checkmark"> </i>Nombre de ligne 10 à 30</li>
+                            <li><i className="ion-checkmark"> </i>Nombre de cannaux 1 à 10</li>
                         </ul>
-                        <div className="plan-select"><a href="https://market.oxxodata.com/cart.php?a=add&pid=174">Commander</a></div>
+                        <div className="plan-select"><a href="https://market.oxxodata.com/cart.php?a=add&pid=173">Commander</a></div>
                     </div>
-                    <div className="plan" style={{ width: '20%' }}>
+                    <div className="plan featured">
                         <h3 className="plan-title">
                             Pack L
                         </h3>
-                        <div className="plan-cost"><span className="plan-price">13€</span><span className="plan-type">/ Mois</span></div>
-                        <ul className="plan-features">
-                            <li><i className="ion-checkmark"> </i>Engagement 12 mois</li>
-                            <li><i className="ion-checkmark"> </i>Nombre de ligne 30 à 50</li>
-                        </ul>
-                        <div className="plan-select"><a href="https://market.oxxodata.com/cart.php?a=add&pid=175">Commander</a></div>
-                    </div>
-                    <div className="plan" style={{ width: '20%' }}>
-                        <h3 className="plan-title">
-                            Pack XL
-                        </h3>
-                        <div className="plan-cost"><span className="plan-price">12€</span><span className="plan-type">/ Mois</span></div>
-                        <ul className="plan-features">
-                            <li><i className="ion-checkmark"> </i>Engagement 12 mois</li>
-                            <li><i className="ion-checkmark"> </i>Nombre de ligne supérieur à 50</li>
-                        </ul>
-                        <div className="plan-select"><a href="https://market.oxxodata.com/cart.php?a=add&pid=176">Commander</a></div>
-                    </div>
-                    <div className="plan featured" style={{ width: '20%' }}>
-                        <h3 className="plan-title">
-                            Pack Free
-                        </h3>
-                        <div className="plan-cost"><span className="plan-price">20€</span><span className="plan-type">/ Mois</span></div>
+                        <div className="plan-cost"><span className="plan-price">24€</span><span className="plan-type">/ Mois</span></div>
                         <ul className="plan-features">
                             <li><i className="ion-checkmark"> </i>Sans engagement</li>
                             <li><i className="ion-checkmark"> </i>Nombre de lignes illimités</li>
@@ -215,33 +184,6 @@ export default function trunksip() {
                             </article>
                         </div>
                     </div>
-                </div>
-            </section>
-
-
-
-
-            <section className="section section-feature-grey is-medium">
-                <div className="container">
-                    <div className="columns">
-                        <div className="column is-10 is-offset-1">
-                            <div className="has-text-centered">
-                                <img className="pushed-image" src="/3cx.png" />
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="title-wrapper has-text-centered">
-                        <h2 className="title is-2">N'hésitez plus!</h2>
-                        <h3 className="subtitle is-5 is-muted">Passer chez OXXO Télécom!
-                </h3>
-                    </div>
-
-                    <p className="has-text-centered mt-20">
-                        <a className="button cta is-large rounded secondary-btn raised" href="https://market.oxxodata.com/cart.php?gid=1">
-                            Commander
-                </a>
-                    </p>
                 </div>
             </section>
         </div>
