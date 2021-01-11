@@ -76,7 +76,7 @@ export default function mobile() {
                     <TabPanel tabId="two">
                         <div className="columns" style={{ padding: '5rem' }}>
                             <div className="column is-half" >
-                                <img src="/europe_secure.png" style={{ height: '400px', margin: 'auto' }} />
+                                <img src="/europe_secure.png" style={{ height: 'auto', margin: 'auto' }} />
                             </div>
                             <div className="column is-half">
                                 <h3 style={{
