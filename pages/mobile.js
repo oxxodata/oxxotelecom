@@ -61,7 +61,7 @@ export default function mobile() {
                     defaultTab="one"
                     onChange={(tabId) => { console.log(tabId) }}
                 >
-                    <div style={{ width: '10rem', margin: 'auto', marginBottom: '40px' }}>
+                    <div className="price-tab">
                         <TabList>
                             <div style={{ margin: 'auto', width: '46%' }}>
                                 <Tab tabFor="one"><b>Prix</b></Tab>

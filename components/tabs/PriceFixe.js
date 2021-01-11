@@ -2,7 +2,7 @@ export default function PriceFixe() {
     return (
         <section className="section is-medium hero">
             <div className="snip1214" style={{ margin: 'auto' }}>
-                <div className="plan" style={{ width: '20%' }}>
+                <div className="plan plan20">
                     <h3 className="plan-title">
                         Pack S
                         </h3>
@@ -13,7 +13,7 @@ export default function PriceFixe() {
                     </ul>
                     <div className="plan-select"><a href="https://market.oxxodata.com/cart.php?a=add&pid=173">Commander</a></div>
                 </div>
-                <div className="plan" style={{ width: '20%' }}>
+                <div className="plan plan20">
                     <h3 className="plan-title">
                         Pack M
                         </h3>
@@ -24,7 +24,7 @@ export default function PriceFixe() {
                     </ul>
                     <div className="plan-select"><a href="https://market.oxxodata.com/cart.php?a=add&pid=174">Commander</a></div>
                 </div>
-                <div className="plan" style={{ width: '20%' }}>
+                <div className="plan plan20">
                     <h3 className="plan-title">
                         Pack L
                         </h3>
@@ -35,7 +35,7 @@ export default function PriceFixe() {
                     </ul>
                     <div className="plan-select"><a href="https://market.oxxodata.com/cart.php?a=add&pid=175">Commander</a></div>
                 </div>
-                <div className="plan" style={{ width: '20%' }}>
+                <div className="plan plan20">
                     <h3 className="plan-title">
                         Pack XL
                         </h3>
@@ -46,7 +46,7 @@ export default function PriceFixe() {
                     </ul>
                     <div className="plan-select"><a href="https://market.oxxodata.com/cart.php?a=add&pid=176">Commander</a></div>
                 </div>
-                <div className="plan featured" style={{ width: '20%' }}>
+                <div className="plan featured plan20">
                     <h3 className="plan-title">
                         Pack Free
                         </h3>

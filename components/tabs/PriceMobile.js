@@ -1,7 +1,7 @@
 export default function PriceMobile() {
     return (
         <div className="snip1214" style={{ margin: '0 auto' }}>
-            <div className="plan" style={{ width: '20%' }}>
+            <div className="plan plan20" >
                 <h3 className="plan-title">
                     Mobile Pro 1 Go
                         </h3>
@@ -14,7 +14,7 @@ export default function PriceMobile() {
                 </ul>
                 <div className="plan-select"><a href="">Commander</a></div>
             </div>
-            <div className="plan" style={{ width: '20%' }}>
+            <div className="plan plan20" >
                 <h3 className="plan-title">
                     Mobile Pro 5 Go
                         </h3>
@@ -27,7 +27,7 @@ export default function PriceMobile() {
                 </ul>
                 <div className="plan-select"><a href="">Commander</a></div>
             </div>
-            <div className="plan featured" style={{ width: '20%' }}>
+            <div className="plan featured plan20" >
                 <h3 className="plan-title">
                     Mobile Pro 20 Go
                         </h3>
@@ -40,7 +40,7 @@ export default function PriceMobile() {
                 </ul>
                 <div className="plan-select"><a href="">Commander</a></div>
             </div>
-            <div className="plan" style={{ width: '20%' }}>
+            <div className="plan plan20" >
                 <h3 className="plan-title">
                     Mobile Pro 60 Go
                         </h3>
@@ -53,7 +53,7 @@ export default function PriceMobile() {
                 </ul>
                 <div className="plan-select"><a href="">Commander</a></div>
             </div>
-            <div className="plan" style={{ width: '20%' }}>
+            <div className="plan plan20" >
                 <h3 className="plan-title">
                     Mobile Pro 100 Go
                         </h3>

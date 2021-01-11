@@ -2,7 +2,7 @@ export default function PriceMobileInternet() {
 
     return (
         <div className="snip1214" style={{ margin: '0 auto' }}>
-            <div className="plan" style={{ width: '20%' }}>
+            <div className="plan plan20">
                 <h3 className="plan-title">
                     Internet Pro 10 Go
                         </h3>
@@ -14,7 +14,7 @@ export default function PriceMobileInternet() {
                 </ul>
                 <div className="plan-select"><a href="">Commander</a></div>
             </div>
-            <div className="plan" style={{ width: '20%' }}>
+            <div className="plan plan20">
                 <h3 className="plan-title">
                     Internet Pro 20 Go
                         </h3>
@@ -26,7 +26,7 @@ export default function PriceMobileInternet() {
                 </ul>
                 <div className="plan-select"><a href="">Commander</a></div>
             </div>
-            <div className="plan featured" style={{ width: '20%' }}>
+            <div className="plan featured">
                 <h3 className="plan-title">
                     Internet Pro 50 Go
                         </h3>
@@ -38,7 +38,7 @@ export default function PriceMobileInternet() {
                 </ul>
                 <div className="plan-select"><a href="">Commander</a></div>
             </div>
-            <div className="plan" style={{ width: '20%' }}>
+            <div className="plan plan20">
                 <h3 className="plan-title">
                     Internet Pro 100 Go
                         </h3>
@@ -50,7 +50,7 @@ export default function PriceMobileInternet() {
                 </ul>
                 <div className="plan-select"><a href="">Commander</a></div>
             </div>
-            <div className="plan" style={{ width: '20%' }}>
+            <div className="plan plan20">
                 <h3 className="plan-title">
                     Internet Pro 500 Go
                         </h3>
